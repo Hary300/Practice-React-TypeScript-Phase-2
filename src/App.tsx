@@ -1,13 +1,13 @@
-import ChangeTitle from './components/ChangeTitle';
-import RunAgain from './components/RunAgain';
-import RunOnce from './components/RunOnce';
+import CountDependency from './components/CountDependency';
+import DynamicTitle from './components/DynamicTitle';
+import TwoDependency from './components/TwoDependency';
 
 function App() {
   return (
     <>
-      <RunOnce />
-      <RunAgain />
-      <ChangeTitle />
+      <CountDependency />
+      <TwoDependency />
+      <DynamicTitle />
     </>
   );
 }
