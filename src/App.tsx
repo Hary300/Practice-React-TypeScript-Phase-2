@@ -1,9 +1,15 @@
-import ProperErrorPosts from './components/ProperErrorPosts';
+import InputName from './components/InputName';
+import MultipleControlledInputs from './components/MultipleControlledInputs';
+import SelectFavoriteFood from './components/SelectFavoriteFood';
+import TextareaBio from './components/TextareaBio';
 
 function App() {
   return (
     <>
-      <ProperErrorPosts />
+      <InputName />
+      <TextareaBio />
+      <SelectFavoriteFood />
+      <MultipleControlledInputs />
     </>
   );
 }
