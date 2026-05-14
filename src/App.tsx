@@ -1,11 +1,9 @@
-import ErrorPosts from './components/ErrorPosts';
-import ErrorUsers from './components/ErrorUsers';
+import ProperErrorPosts from './components/ProperErrorPosts';
 
 function App() {
   return (
     <>
-      <ErrorPosts />
-      <ErrorUsers />
+      <ProperErrorPosts />
     </>
   );
 }
