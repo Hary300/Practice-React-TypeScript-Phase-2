@@ -1,7 +1,13 @@
+import ChangeTitle from './components/ChangeTitle';
+import RunAgain from './components/RunAgain';
+import RunOnce from './components/RunOnce';
+
 function App() {
   return (
     <>
-      <h1 className='text-3xl font-bold underline'>Hello world!</h1>
+      <RunOnce />
+      <RunAgain />
+      <ChangeTitle />
     </>
   );
 }
