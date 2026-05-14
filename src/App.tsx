@@ -1,15 +1,13 @@
-import InputName from './components/InputName';
-import MultipleControlledInputs from './components/MultipleControlledInputs';
-import SelectFavoriteFood from './components/SelectFavoriteFood';
-import TextareaBio from './components/TextareaBio';
+import CommentForm from './components/CommentForm';
+import FavoriteFoodForm from './components/FavoriteFoodForm';
+import LoginForm from './components/LoginForm';
 
 function App() {
   return (
     <>
-      <InputName />
-      <TextareaBio />
-      <SelectFavoriteFood />
-      <MultipleControlledInputs />
+      <LoginForm />
+      <CommentForm />
+      <FavoriteFoodForm />
     </>
   );
 }
