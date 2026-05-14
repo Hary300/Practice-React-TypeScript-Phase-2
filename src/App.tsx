@@ -1,13 +1,11 @@
-import FetchComments from './components/FetchComments';
-import FetchPosts from './components/FetchPosts';
-import FetchUsers from './components/FetchUsers';
+import LoadingPosts from './components/LoadingPosts';
+import LoadingUsers from './components/LoadingUsers';
 
 function App() {
   return (
     <>
-      <FetchPosts />
-      <FetchUsers />
-      <FetchComments />
+      <LoadingPosts />
+      <LoadingUsers />
     </>
   );
 }
