@@ -1,11 +1,11 @@
-import LoadingPosts from './components/LoadingPosts';
-import LoadingUsers from './components/LoadingUsers';
+import ErrorPosts from './components/ErrorPosts';
+import ErrorUsers from './components/ErrorUsers';
 
 function App() {
   return (
     <>
-      <LoadingPosts />
-      <LoadingUsers />
+      <ErrorPosts />
+      <ErrorUsers />
     </>
   );
 }
