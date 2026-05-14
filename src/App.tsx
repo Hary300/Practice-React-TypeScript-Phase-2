@@ -1,13 +1,13 @@
-import CountDependency from './components/CountDependency';
-import DynamicTitle from './components/DynamicTitle';
-import TwoDependency from './components/TwoDependency';
+import FetchComments from './components/FetchComments';
+import FetchPosts from './components/FetchPosts';
+import FetchUsers from './components/FetchUsers';
 
 function App() {
   return (
     <>
-      <CountDependency />
-      <TwoDependency />
-      <DynamicTitle />
+      <FetchPosts />
+      <FetchUsers />
+      <FetchComments />
     </>
   );
 }
