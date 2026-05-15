@@ -21,6 +21,7 @@ export default function RegisterForm() {
   function handleChange(
     event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) {
+    // typing name
     const name = event.target.name as keyof Data;
 
     setFormData((prev) => ({ ...prev, [name]: event.target.value }));
