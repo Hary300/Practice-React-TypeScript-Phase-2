@@ -1,13 +1,13 @@
-import AutoFocus from './components/AutoFocus';
-import ClearInput from './components/ClearInput';
-import FocusInput from './components/FocusInput';
+import IntervalCounter from './components/IntervalCounter';
+import ResizeListener from './components/ResizeListener';
+import ToggleComponent from './components/ToggleComponent';
 
 function App() {
   return (
     <>
-      <FocusInput />
-      <AutoFocus />
-      <ClearInput />
+      <IntervalCounter />
+      <ResizeListener />
+      <ToggleComponent />
     </>
   );
 }
