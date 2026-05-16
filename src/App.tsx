@@ -1,13 +1,13 @@
-import CommentFormValidation from './components/CommentFormValidation';
-import RegisterFormValidation from './components/RegisterFormValidation';
-import SelectFormValidation from './components/SelectFormValidation';
+import AutoFocus from './components/AutoFocus';
+import ClearInput from './components/ClearInput';
+import FocusInput from './components/FocusInput';
 
 function App() {
   return (
     <>
-      <RegisterFormValidation />
-      <CommentFormValidation />
-      <SelectFormValidation />
+      <FocusInput />
+      <AutoFocus />
+      <ClearInput />
     </>
   );
 }
